@@ -1,0 +1,118 @@
+
+
+.card_item
+{
+    margin:25px;
+    height:150px;
+    width:350px;
+    border-width: 0px;
+    border-radius: 15px;
+    background-color: transparent;
+
+    
+}
+
+.search{
+    background-color: white;
+    border-width: 0px;
+    border-radius: 29px;
+    color:grey;
+    height: 40px;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.search_button{
+    height: 40px;
+    width:40px;
+    padding: 10px;
+    border-radius: 50%;
+    border-width: 0px;
+    margin-top: 40px;
+    background-color: white;
+}
+
+.search_img{
+    height:20px;
+    padding:3px;
+    margin: auto;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.main_bg {
+    background: linear-gradient(45deg, #FFC107, hsl(318, 82%, 70%), #03A9F4, hsl(226, 62%, 54%), #03A9F4, #00BCD4, #8BC34A, #FFC107);
+    background-size: 400% 400%;
+    animation: gradient-animation 10s ease infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.weather_img{
+    height:150px;
+    margin-top:-50px;
+}
+
+.weather_deg{
+    font-family: sans-serif;
+    color: white;
+    margin:10px;
+    font-size: 70px;
+}
+
+.weather_place{
+    font-family: sans-serif;
+    color:white;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.weather_extrainfo{
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.details{
+    margin-left: -1000px;
+    margin-top: 10px;
+}
+
+.details_img{
+    height: 30px;
+    width: 35px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+
+.details_both{
+    margin: 40px;
+}
+
+.error{
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+

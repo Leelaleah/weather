@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>weather-app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="weather.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div class="main_bg">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="card_item">
+                    <input type="text" placeholder="Enter the place" class="search" id="searchbox">
+                    <button class="search_button" id="searchbtn"><img src="images/search.png" alt="Example Image" class="search_img" id="weatherimg"></button>
+                </div>
+                <div class="error"><p id="invalidcity">Invalid city name</p></div>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center" id="places">
+                <img src="images/clouds.png" class="weather_img">  
+                <h1 class="weather_deg" id="weatherdegree">22°C</h1>
+                <h2 class="weather_place" id="weatherplace">NEW YORK</h2>   
+            </div>
+            <div class=" d-flex flex-row justify-content-between details_both" id="deets">
+                <div><img src="images/humidity.png" class="details_img"></div>
+                <div class="details">
+                    <p class="weather_extrainfo" id="weatherhumid">64%</p>
+                    <p class="weather_extrainfo">humidity</p>
+                </div>      
+                <div><img src="images/wind.png" class="details_img"></div>
+                <div class="details">
+                    <p class="weather_extrainfo" id="windspeed">18km/h</p>
+                    <p class="weather_extrainfo">wind speed</p>
+                </div>   
+            </div>
+        </div>
+        <script src="/weather.js" async defer></script>
+    </body>
+</html>
